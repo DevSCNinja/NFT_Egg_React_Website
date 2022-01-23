@@ -1,0 +1,14 @@
+.banner-wrapper {
+    padding: 100px 0;
+    position: relative;
+    background-color: $primary;
+    background-image: url('../../img/banner-character-2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    
+    min-height: 660px;
+    @media only screen and (max-width: 600px) {
+        min-height: 0;
+    }
+}
